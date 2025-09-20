@@ -6,7 +6,7 @@ This challenge was proposed by DIO for the .NET path course. You can read the or
 This challenge proposed the building of a parking lot system to manage parked vehicles and execute its operations, such as add a vehicle, remove a vehicle  showing the price charged, and list the actively parked vehicles. In order to do that, it was required to:
 
 - Build a class called Parking Lot, according to the following diagram (adapted to English):
-<br>
+  
 ![ParkingLotDiagram](proposed_diagram.png)
 - Create three attributes for the class:
     1. **initialPrice** (decimal): Price charged to let the vehicle be parked inside the establishment.
@@ -17,10 +17,10 @@ This challenge proposed the building of a parking lot system to manage parked ve
     2. **removeVehicle**: Responsible for verifying if a given vehicle is parked, and questioning the quantity of hours it remained parked, calculating and showing the final price. 
     3. **listVehicles**: Must show every present vehicle (added and not removed). A message should inform the user if there's no vehicle parked.
 - Construct an interactive menu with the following actions:
-    1. Register vehicle
-    2. Remove vehicle
-    3. List vehicle
-    4. Shut down the program
+    1. Register vehicle.
+    2. Remove vehicle.
+    3. List vehicle.
+    4. Shut down the program.
 
 ## What else to expect
 
