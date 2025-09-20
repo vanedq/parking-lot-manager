@@ -39,9 +39,9 @@ public class ParkingLot
                 }
                 else
                     Console.WriteLine("\n[FAILURE] Invalid answer. Use only integers, for example:" +
-                    "\n- Less than 1h: 0" +
-                    "\n- More than 1h, up to 2h: 2" +
-                    "\n- More than 2h, up to 3h: 3");
+                    "\n- Less than 1h: 0 (no additional price charged)" +
+                    "\n- More than 1h, up to 2h: 1" +
+                    "\n- More than 2h, up to 3h: 2");
             } while (true);
 
             this.vehicle.Remove(licensePlate);
