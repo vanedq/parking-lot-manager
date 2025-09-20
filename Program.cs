@@ -21,12 +21,12 @@ namespace ParkingLot
                 {
                     case "1":
                         Console.WriteLine("License Plate: ");
-                        establishmentUser.AddVehicle(Console.ReadLine()??"");
+                        establishmentUser.AddVehicle((Console.ReadLine()??"").ToUpper());
                         system.WaitForResponse();
                         break;
                     case "2":
                         Console.WriteLine("License Plate: ");
-                        establishmentUser.RemoveVehicle(Console.ReadLine()??"");
+                        establishmentUser.RemoveVehicle((Console.ReadLine()??"").ToUpper());
                         system.WaitForResponse();
                         break;
                     case "3":
